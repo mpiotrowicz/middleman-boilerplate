@@ -1,0 +1,25 @@
+/*================ Web Fonts ================*/
+// %[WEB-FONT] {
+//   .[WEB-FONT]-active & {
+//     font-family: [WEB-FONT];
+//     font-weight:  [WEB-FONT];
+//   } 
+// }
+
+// .[WEB-FONT]{
+//   @extend %[WEB-FONT];
+// }
+
+/*============================================================================
+  Generic
+==============================================================================*/
+body {
+  font-family: $defaultBodyFont;
+  color: $bodyFontColor;
+  font-size: $bodyFontSize;
+  line-height: 1.4;
+}
+
+a {
+  color: $link;
+}

@@ -1,0 +1,10 @@
+*.DS_Store
+/.sass-cache
+.sass-cache
+.scssc
+
+tmp
+
+*.zip
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,44 @@
+/*================ Layout ================*/
+$pageWidth: 990px;
+$gutter: 30px;
+$quarter : 225px;
+$standardPadding: 15px 20px;
+
+/*================ Typography ================*/
+$defaultBodyFont : Helvetica, Arial, sans-serif;
+$bodyFontSize: 12px;
+$bodyFontColor: #555;
+
+$medText: 14px;
+$largeText: 18px;
+
+
+$pageHeader: #333333;
+$sectionHeader: #000;
+
+
+
+$link: #00afd8;
+$darkLink: #0086a5;
+
+$relatedContent: #888;
+
+/*================ Backgrounds ================*/
+$bodyBg: #fff;
+
+/*================ Borders ================*/
+$defaultBorderRadius: 4px;
+
+
+/*================ Buttons ================*/
+/*================ States ================*/
+
+/*================ Repeated Layouts ================*/
+.txt-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+
+    max-width: 100%;
+}
